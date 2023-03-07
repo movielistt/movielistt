@@ -1,0 +1,53 @@
+body {
+
+	background-color: #000000;
+
+	color: #fff;
+
+	font-family: sans-serif;
+
+}
+
+/*
+
+ Game style
+
+*/
+
+input {
+
+	display: none;
+
+}
+
+.game {
+
+	display: flex;
+
+	flex-direction: column-reverse;
+
+	justify-content: center;
+
+	align-items: center;
+
+	height: 90vh;
+
+}
+
+.buttons {
+
+	margin-top: 30px;
+
+	display: flex;
+
+	justify-content: center;
+
+}
+
+.buttons > * {
+
+	position: absolute;
+
+	background-color: #9b59b6;
+
+	color: #fff;
